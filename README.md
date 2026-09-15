@@ -1,10 +1,40 @@
-Project Title:
-2D Distance CalculatorDescription
+Here is the updated documentation specifically tailored for Python:
+
+**Project Title**
+
+2D Distance Calculator
+
+**Description**
+
 A console application written in Python that calculates the straight-line distance between two points on a 2D Cartesian plane using the distance formula:
+
 $$d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$
-How to Run the Program:
-Save the code in a file named distance_calculator.py.Open your terminal or command prompt and navigate to the folder containing the file.Execute the script:Bashpython distance_calculator.py
-Input NeededThe program requires four numerical inputs:$x_1$: X-coordinate of the first point$y_1$: Y-coordinate of the first point$x_2$: X-coordinate of the second point$y_2$: Y-coordinate of the second pointSample OutputPlaintext=== 2D Distance Calculator (Python) ===
+
+### How to Run the Program
+
+1. Save the code in a file named `distance_calculator.py`.
+2. Open your terminal or command prompt and navigate to the folder containing the file.
+3. Execute the script:
+```bash
+python distance_calculator.py
+
+```
+
+
+
+### Input Needed
+
+The program requires four numerical inputs:
+
+* $x_1$: X-coordinate of the first point
+* $y_1$: Y-coordinate of the first point
+* $x_2$: X-coordinate of the second point
+* $y_2$: Y-coordinate of the second point
+
+### Sample Output
+
+```text
+=== 2D Distance Calculator (Python) ===
 Enter x1: 3
 Enter y1: 4
 Enter x2: 7
@@ -12,8 +42,21 @@ Enter y2: 1
 
 Calculating distance...
 The distance between (3.0, 4.0) and (7.0, 1.0) is 5.00 units.
-Author: Created by Papua, Zarin 
-Python Code Implementation: Here is the source code if you need it: Python import math
+
+```
+
+### Author
+
+Created by [Zarin Papua]
+
+---
+
+### Python Code Implementation
+
+Here is the source code if you need it:
+
+```python
+import math
 
 def calculate_distance():
     print("=== 2D Distance Calculator (Python) ===")
@@ -30,3 +73,5 @@ def calculate_distance():
 
 if __name__ == "__main__":
     calculate_distance()
+
+```
